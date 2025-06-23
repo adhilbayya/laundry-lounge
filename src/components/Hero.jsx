@@ -1,6 +1,6 @@
 function Hero() {
   const handleWhatsappClick = () => {
-    const number = "9113611694";
+    const number = "9633084774";
     const message = `👋 Hi! I'd like to schedule a laundry pickup. 🧺👕`;
     const encodedMessage = encodeURIComponent(message);
     const whatsappURL = `https://api.whatsapp.com/send?phone=${number}&text=${encodedMessage}`;
